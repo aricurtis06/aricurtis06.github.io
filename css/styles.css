@@ -1,7 +1,7 @@
 h1{
     color: blueviolet;
 }
-
+nav ul {padding: 0;}
 nav ul li{
     display: block;
     padding: .5rem 1rem;
@@ -20,4 +20,5 @@ max-height: 400px;
 
 footer{
     text-align: center;
+    clear: both;
 }
