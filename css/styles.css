@@ -1,0 +1,21 @@
+h1{
+    color: blueviolet;
+}
+
+nav ul li{
+    display: block;
+    padding: .5rem 1rem;
+    background-color: antiquewhite;
+}
+
+main h1{
+    clear: both;
+}
+
+main img{
+float: right;
+}
+
+footer{
+    text-align: center;
+}
