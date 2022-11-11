@@ -2,11 +2,11 @@ h1{
     color: blueviolet;
 }
 nav ul {padding: 0;}
-nav ul li{
+/*nav ul li{
     display: block;
     padding: .5rem 1rem;
     background-color: antiquewhite;
-}
+}*/
 
 main h1{
     clear: both;
