@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig rev="18116" version="6.1.15">
+  <panorama>
+    <id>node1</id>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>../Unit 10/IMG_0532 Panorama.jpg</filename>
+      <videotype>equi</videotype>
+      <levelpitch>0</levelpitch>
+      <levelroll>0</levelroll>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <flyinstart/>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata>
+      <capturedatetime>2022-10-28T17:12:29</capturedatetime>
+      <datetime>10/28/22 5:12 PM</datetime>
+      <tags>Unit 10</tags>
+    </userdata>
+    <floorplans/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>-55.83</pan>
+          <tilt>-2.7</tilt>
+          <fov>10</fov>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Point01</id>
+        <title>Mabey's Pumpkin Patch Popup</title>
+        <linktype>image</linktype>
+        <linksubtype>unknown</linksubtype>
+        <distance>0</distance>
+        <distanceauto>1</distanceauto>
+        <autoplace>0</autoplace>
+        <customimage>../Unit 10/popup 1.jpg</customimage>
+        <use3d>0</use3d>
+        <width>725</width>
+        <height>484</height>
+      </hotspot>
+    </hotspots>
+    <output>
+      <placeidcache>{"entries":[]}</placeidcache>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>../pano_1/index.html</filename>
+          <values>
+            <value id="css"></value>
+            <value id="fitcover">false</value>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomafterinfov>90</zoomafterinfov>
+          <zoomafteroutfov>20</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>3008</tilesize>
+        <filename>../pano_1/pano.xml</filename>
+        <skinfile>simplex_v6.ggsk</skinfile>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <sounds/>
+    <animation>
+      <title>Animation01</title>
+    </animation>
+  </panorama>
+</pano2vrconfig>
