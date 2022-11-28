@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig version="6.1.15" rev="18116">
+  <panorama>
+    <id>node1</id>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>/Users/student/Downloads/IMG_0748 Panorama.jpg</filename>
+      <videotype>equi</videotype>
+      <levelpitch>0</levelpitch>
+      <levelroll>0</levelroll>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <flyinstart/>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata>
+      <capturedatetime>2022-10-29T12:05:41</capturedatetime>
+      <datetime>10/29/22 12:05 PM</datetime>
+      <tags>Downloads</tags>
+    </userdata>
+    <floorplans/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>-30.47</pan>
+          <tilt>-2.06</tilt>
+          <fov>10</fov>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Point01</id>
+        <title>Wilkerson Farm Popup</title>
+        <linktype>image</linktype>
+        <linksubtype>unknown</linksubtype>
+        <url>../Unit 10/popup 4.jpg</url>
+        <distance>0</distance>
+        <distanceauto>1</distanceauto>
+        <autoplace>0</autoplace>
+        <use3d>0</use3d>
+        <width>0</width>
+        <height>0</height>
+      </hotspot>
+    </hotspots>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output/index.html</filename>
+          <values>
+            <value id="css"></value>
+            <value id="fitcover">false</value>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomafterinfov>90</zoomafterinfov>
+          <zoomafteroutfov>20</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>3032</tilesize>
+        <filename>output/pano.xml</filename>
+        <skinfile>$d/simplex_v6_modified.ggsk</skinfile>
+        <skinconfiguration>
+          <value id="opt_autorotate">false</value>
+          <value id="opt_hotspot_preview">false</value>
+          <value id="opt_thumbnail">false</value>
+        </skinconfiguration>
+        <skintablesconfiguration/>
+        <skincolorsconfiguration>
+          <value id="Button/Hotspot Foreground">4294967295</value>
+          <value id="Screen Tint">1677721600</value>
+          <value id="Scrollbar Background">1694498815</value>
+          <value id="Scrollbar Foreground">4294967295</value>
+          <value id="Thumbnail Active Border">4294967295</value>
+          <value id="Thumbnail Border">4291940817</value>
+          <value id="Tooltip Text Background">2181038080</value>
+          <value id="Tooltip Text Foreground">4294967295</value>
+        </skincolorsconfiguration>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <sounds/>
+    <animation>
+      <title>Animation01</title>
+    </animation>
+  </panorama>
+</pano2vrconfig>
