@@ -1,0 +1,73 @@
+
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+html {-webkit-text-size-adjust: none; }
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section 
+body {
+	line-height: 1;
+}
+body img {
+    padding-left: 16rem;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@media only screen and (min-width: 600px) {
+	/*-----BODY -----*/
+	body {}
+
+
+
+	/*-----HEADER -----*/
+	header {}
+	
+
+
+	
+	
+	/*----- FOOTER -----*/
+
+	
+
+
+
+
+	/*-----HEADER -----*/
+
+	/*-----NAVigation -----*/
+
+	/*-----CONTENT -----*/
+	#content {width: 83.333%;}
+	.contentStuff { padding: 16px 2.4% 16px 1.2%;}
+	/*----- FOOTER -----*/
+
+
+} 
